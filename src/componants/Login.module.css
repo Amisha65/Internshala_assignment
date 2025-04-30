@@ -1,0 +1,49 @@
+.mainContainer {
+  min-height: 100vh;
+}
+
+.subContainer {
+  width: 375px;
+  height: 812px;
+  background-color: #ffffff;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end; 
+  padding-bottom: 48px; 
+}
+
+.welcomeText{
+   color: #1D2226;
+  font-size: 28px;
+  text-align: left;
+}
+
+.text{
+  color: #1D2226;
+   font-size: 18px;
+   opacity: 0.6;
+   text-align: left;
+}
+
+/* Violet Button */
+.customPrimaryBtn {
+  background-color: #6C25FF;
+  color: white;
+  border: none;
+  margin-top: 12px;
+  height: 46px;
+}
+
+.customPrimaryBtn:hover {
+  background-color: #5a1fd9;
+  color: white;
+}
+
+/* Light Purple Button */
+.loginBtn {
+  background-color: #f1e4ff;
+  color: #6C25FF;
+  border: none;
+  height: 46px;
+}

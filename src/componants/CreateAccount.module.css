@@ -1,0 +1,111 @@
+.mainContainer {
+    min-height: 100vh;
+  }
+  
+  .subContainer {
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .custominputcontainer {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .customlabel {
+    position: absolute;
+    top: -9px;
+    left: 12px;
+    background-color: #fff;
+    padding: 0 4px;
+    font-size: 13px;
+    color: #6C25FF;
+    font-weight: 500;
+    z-index: 1;
+  }
+  
+  .custominput {
+    width: 100%;
+    padding: 16px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    background-color: white;
+  }
+  
+  .customlabelradio {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  .btnpurple {
+    background-color: #6C25FF;
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    border: none;
+    position: relative;
+    top: 8em;
+  }
+  
+  .btnpurple:hover {
+    background-color: #5a1fe0;
+    color: white;
+  }
+
+  .tooltip {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 10;
+    background: #fff3cd;
+    color: #856404;
+    border: 1px solid #ffeeba;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: 6px;
+    width: max-content;
+    max-width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Hide default radio style */
+  .customradio {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: all 0.2s ease;
+  }
+  
+  .customradio:checked {
+    border: 2px solid #7f2eff; /* purple border */
+    background-color: white;
+  }
+  
+  .customradio:checked::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    background-color: #7f2eff; /* inner purple dot */
+    border-radius: 50%;
+    display: block;
+  }
+  

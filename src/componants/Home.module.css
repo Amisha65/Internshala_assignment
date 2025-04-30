@@ -1,0 +1,91 @@
+.mainContainer {
+    min-height: 100vh;
+  }
+  
+  .subContainer {
+    width: 375px;
+    height: 812px;
+    overflow: hidden;
+    position: relative;
+    background-color: #F7F8F9;
+  }
+  
+  .accountCard {
+    width: 100%;
+    height: 68px;
+    box-shadow: 0px 3px 6px #00000007;
+    background: #ffffff;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .cardTitle {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 3em;
+  }
+  
+  .profilePicWrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .profilePic {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .cameraIcon {
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    background-color: #7253fa;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profileInfo {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .name {
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .email {
+    font-size: 12px;
+    color: #666;
+  }
+  
+  .description {
+    font-size: 12px;
+    line-height: 1.4;
+    margin-top: 8px;
+    color: #333;
+  }
+  
+  .customdivider {
+    border-top: 1px dashed #636363;
+    width: 100%;
+  }
+  
+  
