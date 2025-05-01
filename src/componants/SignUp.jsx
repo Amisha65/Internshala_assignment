@@ -42,7 +42,7 @@ const SignUp = () => {
     <div
       className={`${css.mainContainer} d-flex justify-content-center align-items-center bg-light`}
     >
-      <div className={`${css.subContainer} bg-white p-4 shadow-sm`}>
+      <div className={`${css.subContainer} bg-white p-4 shadow`}>
         <h4 className="fw-bold mb-2">
           Signin to your <br /> PopX account
         </h4>

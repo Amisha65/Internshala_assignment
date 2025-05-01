@@ -27,7 +27,9 @@ const Home = () => {
             </div>
           </div>
           <p className={css.description}>
-            Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr...
+            Lorem Ipsum Dolor Sit Amet, Consetetur Sadipscing Elitr, Sed Diam
+            Nonumy Eirmod Tempor Invidunt Ut Labore Et Dolore Magna Aliquyam
+            Erat, Sed Diam
           </p>
           <hr className={css.customdivider} />
         </div>

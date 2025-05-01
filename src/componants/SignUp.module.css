@@ -83,6 +83,10 @@
     margin-top: 10px;
     transition: background-color 0.3s;
   }
+
+  .loginButton:disabled{
+    cursor: not-allowed;
+  }
   
   .loginButton:enabled {
     background-color: #6C25FF;
