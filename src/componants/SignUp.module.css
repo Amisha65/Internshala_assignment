@@ -4,9 +4,10 @@
   
   .subContainer {
     width: 375px;
-    height: 812px;
+    height: 712px;
     overflow: hidden;
     position: relative;
+
   }
   
   /* Input Container */
