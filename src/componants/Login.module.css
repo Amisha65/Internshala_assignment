@@ -42,8 +42,11 @@
 
 /* Light Purple Button */
 .loginBtn {
-  background-color: #f1e4ff;
-  color: #6C25FF;
+  background-color: #6C25FF4B;
   border: none;
   height: 46px;
+}
+
+.loginBtn:hover {
+  background-color: #4610b24b;
 }

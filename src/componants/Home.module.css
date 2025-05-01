@@ -49,12 +49,12 @@
   
   .cameraIcon {
     position: absolute;
-    bottom: -2px;
-    right: -2px;
+    bottom: -0.5px;
+    right: -0.5px;
     background-color: #7253fa;
     color: white;
     border-radius: 50%;
-    padding: 2px;
+    padding: 3px;
     font-size: 10px;
     display: flex;
     align-items: center;
